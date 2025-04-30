@@ -1,13 +1,13 @@
 import Card from "./components/Card"
 import './App.css'
+import Home from "./components/Home";
 
 const App = () => {
   
 
   return (
-    <div>  
-      <h3 className='header'>My Contacts</h3>      
-        <Card  />      
+    <div>                    
+        <Home />              
     </div> 
   )
 };
